@@ -32,3 +32,16 @@ alias spoki='shutdown -h now'
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
 	exec startx
 fi
+
+S1='%(?..[%F{136}%?%f] )%n%f@%F{136}%m%f %1~ %#> '
+
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word
+bindkey '^[[Z' reverse-menu-complete
+zstyle ':completion:*' menu select
+WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+alias ls='ls --color=auto'
