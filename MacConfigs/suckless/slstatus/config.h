@@ -67,7 +67,5 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ cpu_perc, "CPU %s%% |", NULL},
 	{ ram_used, "RAM %s |", NULL},
-	{ battery_perc, "%s%% |", "BAT0"},
-	{ battery_state, "(%s) |", "BAT0"},
 	{ datetime, "%s",           "%F %T" },
 }; 
