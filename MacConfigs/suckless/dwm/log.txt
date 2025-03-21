@@ -1,0 +1,618 @@
+In file included from dwm.c:273:
+config.h:90:45: error: implicit declaration of function 'SCHMD'; did you mean 'SHCMD'? [-Wimplicit-function-declaration]
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             ^~~~~
+      |                                             SHCMD
+config.h:90:45: error: initializer element is not constant
+config.h:90:45: note: (near initialization for 'keys[23].arg.i')
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+config.h:91:47: error: initializer element is not constant
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               ^~~~~
+config.h:91:47: note: (near initialization for 'keys[24].arg.i')
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+config.h:65:27: warning: missing braces around initializer [-Wmissing-braces]
+   65 | static const Key keys[] = {
+      |                           ^
+......
+   90 |         { 0, XF86XK_MonBrightnessUp, spawn, SCHMD("brightnessctl set +10%") },
+      |                                             {                               }
+   91 |         { 0, XF86XK_MonBrightnessDown, spawn, SCHMD("brightnessctl set 10%-") },
+      |                                               {                               }
+make: *** [Makefile:12: dwm.o] Error 1
